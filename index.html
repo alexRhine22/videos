@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Video Examples | Eightfold</title>
+  </head>
+  <body>
+    <h1 class="title">normal video</h1>
+
+    <section class="normal-video__wrapper">
+      <video
+        class="normal-video"
+        controls
+        poster="https://via.placeholder.com/1770x650"
+      >
+        <source
+          src=" https://cdn.pepperapps.io/diagnostics-cms/public/5fc4c74b685bfe0d9e6a4c7c?signature=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..e23ZQe5fotg8pRQ6YCfzXA.Z1E-pgzNlUmQx-N9RKmu8NGIov2VQcBXeiKPMKHyWToE0WUCNaOdK8jhmNzEHN5uGXB6sKUAWlocSFKcNZA11S_LFHcuv3hieSEqrH4haOkLG84j7xNopq_Z-HqlWP1KMcUbYZH6aWozFbmMDOgAhChDuIFt5p5HllZtv_5eAmO2qKKKY0Bhz-jyZyltMJ92.NnSK75whK_O-JCpw4X0czQ"
+          type="video/mp4"
+        />
+        <source
+          src=" https://cdn.pepperapps.io/diagnostics-cms/public/5fc4c74b685bfe0d9e6a4c7c?signature=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..e23ZQe5fotg8pRQ6YCfzXA.Z1E-pgzNlUmQx-N9RKmu8NGIov2VQcBXeiKPMKHyWToE0WUCNaOdK8jhmNzEHN5uGXB6sKUAWlocSFKcNZA11S_LFHcuv3hieSEqrH4haOkLG84j7xNopq_Z-HqlWP1KMcUbYZH6aWozFbmMDOgAhChDuIFt5p5HllZtv_5eAmO2qKKKY0Bhz-jyZyltMJ92.NnSK75whK_O-JCpw4X0czQ"
+          type="video/ogg"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <h1 class="title">video with custom button</h1>
+
+    <section class="custom-video-section">
+      <video
+        id="play-btn-video"
+        class="custom-video"
+        poster="https://via.placeholder.com/1770x650"
+      >
+        <source
+          src=" https://cdn.pepperapps.io/diagnostics-cms/public/5fc4c74b685bfe0d9e6a4c7c?signature=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..e23ZQe5fotg8pRQ6YCfzXA.Z1E-pgzNlUmQx-N9RKmu8NGIov2VQcBXeiKPMKHyWToE0WUCNaOdK8jhmNzEHN5uGXB6sKUAWlocSFKcNZA11S_LFHcuv3hieSEqrH4haOkLG84j7xNopq_Z-HqlWP1KMcUbYZH6aWozFbmMDOgAhChDuIFt5p5HllZtv_5eAmO2qKKKY0Bhz-jyZyltMJ92.NnSK75whK_O-JCpw4X0czQ"
+          type="video/mp4"
+        />
+        <source
+          src=" https://cdn.pepperapps.io/diagnostics-cms/public/5fc4c74b685bfe0d9e6a4c7c?signature=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..e23ZQe5fotg8pRQ6YCfzXA.Z1E-pgzNlUmQx-N9RKmu8NGIov2VQcBXeiKPMKHyWToE0WUCNaOdK8jhmNzEHN5uGXB6sKUAWlocSFKcNZA11S_LFHcuv3hieSEqrH4haOkLG84j7xNopq_Z-HqlWP1KMcUbYZH6aWozFbmMDOgAhChDuIFt5p5HllZtv_5eAmO2qKKKY0Bhz-jyZyltMJ92.NnSK75whK_O-JCpw4X0czQ"
+          type="video/ogg"
+        />
+        Your browser does not support the video tag.
+      </video>
+
+      <button
+        aria-label="play video"
+        aria-controls="play-btn-video"
+        class="custom-video__btn"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          role="img"
+          width="69"
+          height="136"
+          viewBox="0 0 69 136"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M69 68L0.750001 135.55L0.750007 0.450017L69 68Z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </section>
+
+    <h1 class="title">pop up video</h1>
+
+    <section class="modal-video-section">
+      <button
+        class="modal-video__btn"
+        aria-controls="video-modal"
+        type="button"
+        aria-label="open video modal"
+      >
+        <img
+          class="modal-video__btn-image"
+          src="https://via.placeholder.com/800x450"
+          alt=""
+        />
+
+        <svg
+          class="modal-video__btn-icon"
+          aria-hidden="true"
+          role="img"
+          width="69"
+          height="136"
+          viewBox="0 0 69 136"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M69 68L0.750001 135.55L0.750007 0.450017L69 68Z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+
+      <div
+        id="video-modal"
+        role="dialog"
+        aria-modal="true"
+        class="modal-video__wrapper"
+      >
+        <div class="modal-video__inner-wrapper">
+          <button
+            aria-label="close video modal"
+            aria-controls="video-modal"
+            class="modal-video__close-btn"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              role="img"
+              height="24"
+              width="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M13.46,12L19,17.54V19H17.54L12,13.46L6.46,19H5V17.54L10.54,12L5,6.46V5H6.46L12,10.54L17.54,5H19V6.46L13.46,12Z"
+              ></path>
+            </svg>
+          </button>
+
+          <video
+            class="modal-video"
+            controls
+            poster="https://via.placeholder.com/1770x650"
+          >
+            <source
+              src=" https://cdn.pepperapps.io/diagnostics-cms/public/5fc4c74b685bfe0d9e6a4c7c?signature=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..e23ZQe5fotg8pRQ6YCfzXA.Z1E-pgzNlUmQx-N9RKmu8NGIov2VQcBXeiKPMKHyWToE0WUCNaOdK8jhmNzEHN5uGXB6sKUAWlocSFKcNZA11S_LFHcuv3hieSEqrH4haOkLG84j7xNopq_Z-HqlWP1KMcUbYZH6aWozFbmMDOgAhChDuIFt5p5HllZtv_5eAmO2qKKKY0Bhz-jyZyltMJ92.NnSK75whK_O-JCpw4X0czQ"
+              type="video/mp4"
+            />
+            <source
+              src=" https://cdn.pepperapps.io/diagnostics-cms/public/5fc4c74b685bfe0d9e6a4c7c?signature=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..e23ZQe5fotg8pRQ6YCfzXA.Z1E-pgzNlUmQx-N9RKmu8NGIov2VQcBXeiKPMKHyWToE0WUCNaOdK8jhmNzEHN5uGXB6sKUAWlocSFKcNZA11S_LFHcuv3hieSEqrH4haOkLG84j7xNopq_Z-HqlWP1KMcUbYZH6aWozFbmMDOgAhChDuIFt5p5HllZtv_5eAmO2qKKKY0Bhz-jyZyltMJ92.NnSK75whK_O-JCpw4X0czQ"
+              type="video/ogg"
+            />
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <script src="custom-video.js"></script>
+    <script src="modal-video.js"></script>
+  </body>
+</html>
